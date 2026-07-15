@@ -87,6 +87,7 @@ export type TextProps = z.infer<typeof TextPropsSchema>;
 
 export const TextPropsDefaults = {
   text: '',
+  markdown: true,
 };
 
 export function Text({ style, props }: TextProps) {
@@ -101,7 +102,8 @@ export function Text({ style, props }: TextProps) {
   };
 
   const text = props?.text ?? TextPropsDefaults.text;
-  if (props?.markdown) {
+  const useMarkdown = props?.markdown ?? TextPropsDefaults.markdown;
+  if (useMarkdown) {
     return <EmailMarkdown style={wStyle} markdown={text} />;
   }
   return <div style={wStyle}>{text}</div>;
