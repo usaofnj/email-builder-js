@@ -2,7 +2,9 @@ import React from 'react';
 import { Drawer, Stack, Typography } from '@mui/material';
 import { useSamplesDrawerOpen } from '../../documents/editor/EditorContext';
 import SidebarButton from './SidebarButton';
+
 export const SAMPLES_DRAWER_WIDTH = 240;
+
 export default function SamplesDrawer() {
   const samplesDrawerOpen = useSamplesDrawerOpen();
   return (
@@ -21,7 +23,8 @@ export default function SamplesDrawer() {
           </Typography>
           <Stack alignItems="flex-start">
             <SidebarButton href="#">Empty</SidebarButton>
-            <SidebarButton href="#sample/welcome">USA Newsletter</SidebarButton>
+            <SidebarButton href="#sample/welcome">USA Email Blast</SidebarButton>
+            <SidebarButton href="#sample/usa-capsule">USA Capsule</SidebarButton>
           </Stack>
         </Stack>
       </Stack>
