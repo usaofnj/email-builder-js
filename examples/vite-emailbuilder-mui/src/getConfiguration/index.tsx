@@ -6,6 +6,7 @@ import RESERVATION_REMINDER from './sample/reservation-reminder';
 import RESET_PASSWORD from './sample/reset-password';
 import RESPOND_TO_MESSAGE from './sample/respond-to-message';
 import SUBSCRIPTION_RECEIPT from './sample/subscription-receipt';
+import USA_CAPSULE from './sample/usa-capsule';
 import WELCOME from './sample/welcome';
 
 export default function getConfiguration(template: string) {
@@ -14,6 +15,8 @@ export default function getConfiguration(template: string) {
     switch (sampleName) {
       case 'welcome':
         return WELCOME;
+      case 'usa-capsule':
+        return USA_CAPSULE;
       case 'one-time-password':
         return ONE_TIME_PASSCODE;
       case 'order-ecomerce':
