@@ -25,7 +25,7 @@ const WELCOME: TEditorConfiguration = {
     "data": {
       "style": { "padding": { "top": 16, "bottom": 4, "right": 24, "left": 24 } },
       "props": {
-        "url": "https://assets.softr-files.com/applications/354d3ed5-1c39-423a-87d8-8f042b241d03/assets/a9fa5e18-d1ef-4bf5-9752-b5837d5e43ce.jpeg",
+        "url": "https://assets.softr-files.com/applications/354d3ed5-1c39-423a-87d8-8f042b241d03/assets/52655c24-6e65-4b81-b9db-6335c7d3574b.png",
         "alt": "USA Logo",
         "linkHref": null,
         "contentAlignment": "middle"
