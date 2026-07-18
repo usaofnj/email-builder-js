@@ -23,7 +23,7 @@ const WELCOME: TEditorConfiguration = {
   "block-1777347169290": {
     "type": "Image",
     "data": {
-      "style": { "padding": { "top": 16, "bottom": 4, "right": 24, "left": 24 } },
+      "style": { "padding": { "top": 0, "bottom": 0, "right": 0, "left": 0 } },
       "props": {
         "url": "https://assets.softr-files.com/applications/354d3ed5-1c39-423a-87d8-8f042b241d03/assets/52655c24-6e65-4b81-b9db-6335c7d3574b.png",
         "alt": "USA Logo",
